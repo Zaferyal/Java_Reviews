@@ -10,7 +10,7 @@ public class DaysInWeek {
 
         String result = "";
 
-        if (day >= 1 && day <= 7) { // 7 possible out puts
+        if (day >= 1 && day <= 7) { // 7 possible outputs
 
             if (day == 1) {
                 result = "Monday";
@@ -27,7 +27,6 @@ public class DaysInWeek {
             } else {
                 result = "Sunday";
             }
-
 
         } else { // day is invalid. day < 1 or  day > 7. 2 possible outputs
 

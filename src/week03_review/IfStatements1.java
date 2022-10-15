@@ -23,17 +23,19 @@ public class IfStatements1 {
             System.out.println("Even Number");
         }
 
-
         System.out.println("-------------------------------------------------");
 
         // 28days, 30days, 31days
         int month = -5;
 
-        if(month >= 1 && month <= 12){ //if the month is valid
+        boolean isValid = month >= 1 && month <= 12;
+        boolean has30Days = month == 4 || month ==6 || month == 9 || month == 11;
+
+        if(isValid){ //if the month is valid
 
             if(month == 2){
                 System.out.println("28 Days");
-            }else if(month == 4 || month ==6 || month == 9 || month == 11){
+            }else if(has30Days){
                 System.out.println("30 Days");
             }else{
                 System.out.println("31 days");
