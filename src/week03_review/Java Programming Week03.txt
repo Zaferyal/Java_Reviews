@@ -167,6 +167,16 @@ Swicth:
 
 {}
 
+Scanner: get user input & read files
+
+    Scanner input = new Scanner(System.in);
+
+    nextInt(): for int inputs
+    nextDouble(): for double inputs
+
+    next(): for String inputs (till firstspace)
+    nextLine(): for String inputs (whole line)
+
 
 
 
