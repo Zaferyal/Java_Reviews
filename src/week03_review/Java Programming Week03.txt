@@ -1,0 +1,10 @@
+Java Programming Week03
+
+Review Topics:
+    Logical Operators
+    If Statements
+        (Ternaries)
+    Switch Statement
+    Scanner
+
+package name: week03_review
