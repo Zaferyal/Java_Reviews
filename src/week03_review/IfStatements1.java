@@ -27,7 +27,7 @@ public class IfStatements1 {
         System.out.println("-------------------------------------------------");
 
         // 28days, 30days, 31days
-        int month = 30;
+        int month = -5;
 
         if(month >= 1 && month <= 12){ //if the month is valid
 
@@ -39,9 +39,13 @@ public class IfStatements1 {
                 System.out.println("31 days");
             }
 
-        }else{ //if the month is NOT valid
+        }else{ //if the month is NOT valid. month < 1  or month > 12
 
-            System.out.println("Invalid");
+            if(month < 1){
+                System.out.println("minimum month number is 1");
+            }else{
+                System.out.println("maximum month number is 12");
+            }
 
         }
 
