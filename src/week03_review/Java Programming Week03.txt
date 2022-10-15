@@ -116,6 +116,8 @@ Otherwise:
     Set the Webdriver....
 
 
+
+
 Ternaries: shoortcut of if statements
         
         ? if keyword
@@ -131,10 +133,39 @@ Ternaries: shoortcut of if statements
         TOTAL NUMBER OF ? AND : MUST BE EVEN
 
 
+.equalsIgnoreCase() , contains(), startsWith() ..... >, < , <= , !=
+
+
+Swicth: 
+
+    ==, .equals()
+
+    
+    switch (expression){ //MUST be evaluated to a single value (can not be long, float, double, boolean)
+
+        case caseValue1:
+                StatementA
+                break;           
+
+        case caseValue2:
+            StatementB
+            break;
+
+        ....
+
+        default:
+            StatementC
+
+
+    }
+
+    SWITCH statement looks for EXACT MATCH only
+
+    caseValue MUST BE unique AND must match with the data type of switch' expression
 
 
 
-
+{}
 
 
 

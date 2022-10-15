@@ -56,9 +56,10 @@ public class SwitchStatement {
         int month = 5;
         if(month >= 1 && month<=12){
 
-            switch (month){
-                case 1:
-                    //....
+            if(month == 1){
+
+            }else if(month == 2){
+
             }
 
         }else {
