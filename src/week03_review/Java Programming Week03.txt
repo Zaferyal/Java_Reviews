@@ -14,10 +14,17 @@ Logical Operators: &&, ||, !
 
     &&: and. both must be true in order to return true.
 
+        In order to login: BOTH username AND password must be correct
+
     ||: or. Either. only one condition need to be true in order to return true
+
+        In order to login to github: EITHER the username OR email need to be provided
 
     !: not. opposite
 
+            not Valied: !Valid
+            not Eligible: !Eligible
+            not passed: !Passed
 
 If Statements: Conditional Statements
     
@@ -51,6 +58,8 @@ If Statements: Conditional Statements
 
 
     Nested If: for pre-conditions
+
+                mandatory step
 
             if(Pre-Condition1){
 
@@ -90,6 +99,23 @@ If Statements: Conditional Statements
                     buy it on ebay
 
 
+If WebDriver is installed:
+
+    If browser name is set to Chrome:
+            open chromer browser....
+
+    If browser name is set Safari:
+            open safari browser....
+
+    If browser name is set Firfox:
+            open firefix browser....
+
+    ...
+
+Otherwise:
+    Set the Webdriver....
+
+
 Ternaries: shoortcut of if statements
         
         ? if keyword
@@ -104,7 +130,7 @@ Ternaries: shoortcut of if statements
 
         TOTAL NUMBER OF ? AND : MUST BE EVEN
 
-        
+
 
 
 
