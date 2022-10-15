@@ -90,10 +90,21 @@ If Statements: Conditional Statements
                     buy it on ebay
 
 
-Ternaries:
+Ternaries: shoortcut of if statements
+        
+        ? if keyword
+             (Condition)? value
+
+        : else keyword
+                : value
+
+        :? else if
+                :(Condition)? value
 
 
+        TOTAL NUMBER OF ? AND : MUST BE EVEN
 
+        
 
 
 
