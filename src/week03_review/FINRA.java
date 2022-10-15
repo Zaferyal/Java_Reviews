@@ -19,7 +19,7 @@ public class FINRA {
         } else if (number % 5 == 0) {
            result = "RA";
         } else {
-            result = ""+number; //"17"
+            result += number; //"17"
         }
 
 
