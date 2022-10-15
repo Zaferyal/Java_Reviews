@@ -67,3 +67,42 @@ If Statements: Conditional Statements
 
 
 
+        If the mall is open:
+
+            if Weather is getting hot:
+                    buy T Shirt..
+
+            If Weather is getting cold:
+                    buy jacket...
+
+        If the mall is closed:
+            
+            if Amazon has it:
+                    buy it on amazon.com
+
+            else if Macy has it:
+                    buyt it on macy.com
+
+            else if etsy has it:
+                    buy it on etsy
+
+            else
+                    buy it on ebay
+
+
+Ternaries:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
