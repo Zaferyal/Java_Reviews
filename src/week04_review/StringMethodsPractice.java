@@ -73,7 +73,27 @@ public class StringMethodsPractice {
         name = name.substring(0,1).toUpperCase() + name.substring(1).toLowerCase();
         //name =  ( "" + name.charAt(0) ).toUpperCase()    + name.substring(1).toLowerCase();
 
+
         System.out.println(name);
+
+        System.out.println("---------------------------------------------------------------");
+
+        String a = "yEs";
+
+        System.out.println( a.equals("yes") );
+        System.out.println( a.equalsIgnoreCase("yes"));
+
+        System.out.println("---------------------------------------------------------------");
+
+        String l = "Today we will have Java and Soft Skill classes";
+
+       boolean hasSelenium =  l.contains("Selenium");
+       boolean hasJava = l.toLowerCase().contains("java");
+
+        System.out.println("hasSelenium = " + hasSelenium);
+        System.out.println("hasJava = " + hasJava);
+
+
 
 
 
