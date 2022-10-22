@@ -1,0 +1,24 @@
+Java Programming Week04
+
+Review Topics:
+			String Objects
+			String Methods
+
+			Quiz2 Review
+
+package name: week04_review
+
+
+
+Challenge Task:
+	1. Write a program that can return the frequency of the word "Java" from a sentence
+
+				Ex:
+					sentence = "Java Java Java Java Python C# Ruby C++ Swift"
+
+					output: 4
+
+
+			DO NOT implement any new topics (Loops, custom methods etc) 
+
+
