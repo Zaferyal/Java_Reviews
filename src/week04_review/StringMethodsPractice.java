@@ -47,7 +47,7 @@ public class StringMethodsPractice {
 
         String s2 = "I live in Virginia, I love Virginia";
 
-       // s2 = s2.replace("Virginia", "New York");
+        // s2 = s2.replace("Virginia", "New York");
         //s2 = s2.replaceFirst("Virginia", "New York");
         s2 = s2.replaceFirst("love Virginia", "love New York");
 
@@ -62,7 +62,7 @@ public class StringMethodsPractice {
 
         System.out.println(t1);
 
-        String t2 = s3.substring(  s3.indexOf('s') );
+        String t2 = s3.substring(s3.indexOf('s'));
 
         System.out.println(t2);
 
@@ -70,7 +70,7 @@ public class StringMethodsPractice {
 
         String name = "mUhTaR";
 
-        name = name.substring(0,1).toUpperCase() + name.substring(1).toLowerCase();
+        name = name.substring(0, 1).toUpperCase() + name.substring(1).toLowerCase();
         //name =  ( "" + name.charAt(0) ).toUpperCase()    + name.substring(1).toLowerCase();
 
 
@@ -80,27 +80,20 @@ public class StringMethodsPractice {
 
         String a = "yEs";
 
-        System.out.println( a.equals("yes") );
-        System.out.println( a.equalsIgnoreCase("yes"));
+        System.out.println(a.equals("yes"));
+        System.out.println(a.equalsIgnoreCase("yes"));
 
         System.out.println("---------------------------------------------------------------");
 
         String l = "Today we will have Java and Soft Skill classes";
 
-       boolean hasSelenium =  l.contains("Selenium");
-       boolean hasJava = l.toLowerCase().contains("java");
+        boolean hasSelenium = l.contains("Selenium");
+        boolean hasJava = l.toLowerCase().contains("java");
 
         System.out.println("hasSelenium = " + hasSelenium);
         System.out.println("hasJava = " + hasJava);
 
-
-
-
-
-
-
-
-
+        System.out.println("---------------------------------------------------------------");
 
 
     }
