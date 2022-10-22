@@ -9,6 +9,13 @@ Review Topics:
 package name: week04_review
 
 
+String: string of text. sequence of characters
+
+
+String methods: charAt, length, indexOf,  lower/upper, replace/replaceFirst, substring, equals/equalsIgnoreCase, conatins. starts/endsWith, isEmpty
+
+
+
 
 Challenge Task:
 	1. Write a program that can return the frequency of the word "Java" from a sentence
