@@ -4,8 +4,8 @@ public class MethodPractice_Void {
 
     public static void main(String[] args) {
 
-       // double result = calculate( 10.5, '+', 5.5 );
-       // System.out.println( calculate( 10.5, '+', 5.5 ) );
+      // double result = calculate( 10.5, '+', 5.5 );
+       //System.out.println( calculate( 10.5, '+', 5.5 ) );
 
         calculate( 10.5, '+', 5.5 );
 
@@ -17,7 +17,7 @@ public class MethodPractice_Void {
 
         System.out.println("-------------------------------------------");
 
-       // double result = calculate(100 ,  '+', 200) * 5
+      // double result = calculate(100 ,  '+', 200) * 5
 
         calculate(10, '+', 20);
 
