@@ -15,6 +15,9 @@ public class MethodPractice_Void {
 
         calculate(30, '#', 40);
 
+        System.out.println("-------------------------------------------");
+
+       // double result = calculate(100 ,  '+', 200) * 5
 
 
     }
