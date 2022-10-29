@@ -31,6 +31,7 @@ Method: a function
 
                     void: can not return any value from the method
                     not void: method MUST return a value
+                                 data type we gave will decide what kind of value will be returned from the method
 
         method name: any name
 
@@ -62,6 +63,19 @@ Tasks
 
         for any other operators, the method should return 0
 
+
+jump statements:
+    
+    continue: jump to the next iteration of the loop. skips the current iteration
+                THERE MUST BE A LOOP
+
+    break: exits the loop or switch
+                when we need to forcefully to exit a loop
+
+    return: exits the current method.
+                Can also be used to return a value from a return method
+
+    System.exit(1): terminates the program. 
 
 
 
