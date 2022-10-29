@@ -19,17 +19,24 @@ public class MethodPractice_Void {
 
        // double result = calculate(100 ,  '+', 200) * 5
 
+        calculate(10, '+', 20);
+
 
     }
 
     //This method takes three arguments (2 double and one char) and calculates the given two numbers
     public static void calculate(double num1, char mathOperator, double num2) {
 
+        if( num1 < 0 || num2 < 0){  // if there is a negative number
+            System.out.println("Both "+num1 +" and "+num2 +" are not positive");
+            return; //exit the method
+        }
+
         switch (mathOperator) {
 
             case '-':
                 System.out.println("Subtraction: " +  (num1 - num2) );
-                break;
+               break;
 
             case '+':
                 System.out.println("Addition: " +  (num1 + num2) );
@@ -51,6 +58,7 @@ public class MethodPractice_Void {
                 System.out.println("Invalid Math Operator");
         }
 
+        System.out.println("Hello World");
 
 
     }
