@@ -40,6 +40,40 @@ Method: a function
                     a data the method MUST have otherwise the method can not perform its task
 
 
+Method overloading: multiple methods having the same method name
+            
+            parameters MUST be different
+
+
+
+
+jump statements:
+    
+    continue: jump to the next iteration of the loop. skips the current iteration
+                THERE MUST BE A LOOP
+
+    break: exits the loop or switch
+                when we need to forcefully to exit a loop
+
+    return: exits the current method.
+                Can also be used to return a value from a return method
+
+    System.exit(1): terminates the program. 
+
+
+
+Loop: Repeated Action
+    
+
+    For Loop: used for fixed number of repitition
+
+        syntax:
+
+                for(init; condition; iterator){
+                        code fragments that need to be repeated
+                }
+
+
 
 
 Tasks
@@ -64,40 +98,20 @@ Tasks
         for any other operators, the method should return 0
 
 
-jump statements:
-    
-    continue: jump to the next iteration of the loop. skips the current iteration
-                THERE MUST BE A LOOP
 
-    break: exits the loop or switch
-                when we need to forcefully to exit a loop
-
-    return: exits the current method.
-                Can also be used to return a value from a return method
-
-    System.exit(1): terminates the program. 
-
-
-
-Loop: Repeated Action
-    
-
-    For Loop: used for fixed number of repitition
-
-    
+come back at 2 pm US EST
 
 
 
 
+next week:
+    while loop
+    nested loop
+    class & object
 
 
 
-
-
-
-
-
-
+come back at 3:15 pm
 
 
 
