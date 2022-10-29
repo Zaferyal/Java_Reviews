@@ -48,6 +48,7 @@ public class ForLoopPractice {
         System.out.println("max = " + max);
         System.out.println("min = " + min);
 
+        scan.close();
         
         
 
