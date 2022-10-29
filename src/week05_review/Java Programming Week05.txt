@@ -46,7 +46,6 @@ Method overloading: multiple methods having the same method name
 
 
 
-
 jump statements:
     
     continue: jump to the next iteration of the loop. skips the current iteration
@@ -61,7 +60,6 @@ jump statements:
     System.exit(1): terminates the program. 
 
 
-
 Loop: Repeated Action
     
 
@@ -72,8 +70,6 @@ Loop: Repeated Action
                 for(init; condition; iterator){
                         code fragments that need to be repeated
                 }
-
-
 
 
 Tasks
@@ -99,19 +95,11 @@ Tasks
 
 
 
-come back at 2 pm US EST
-
-
-
-
 next week:
     while loop
     nested loop
     class & object
 
-
-
-come back at 3:15 pm
 
 
 
