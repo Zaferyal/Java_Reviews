@@ -2,7 +2,24 @@ package week05_review;
 
 public class MethodPractice_Void {
 
+    public static void main(String[] args) {
 
+       // double result = calculate( 10.5, '+', 5.5 );
+       // System.out.println( calculate( 10.5, '+', 5.5 ) );
+
+        calculate( 10.5, '+', 5.5 );
+
+        calculate(20, '/', 0);
+
+        calculate(10, '/', 2);
+
+        calculate(30, '#', 40);
+
+
+
+    }
+
+    //This method takes three arguments (2 double and one char) and calculates the given two numbers
     public static void calculate(double num1, char mathOperator, double num2) {
 
         switch (mathOperator) {
@@ -20,9 +37,9 @@ public class MethodPractice_Void {
                 break;
 
             case '/':
-                if(num2 != 0 ) {
+                if(num2 != 0 ) {  // num2 is NOT zero
                     System.out.println("Division: " + (num1 / num2));
-                }else{
+                }else{ // num2 is zero
                     System.out.println(num1 +" can not be divided by zero");
                 }
                 break;
