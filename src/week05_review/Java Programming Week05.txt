@@ -79,6 +79,13 @@ jump statements:
 
 
 
+Loop: Repeated Action
+    
+
+    For Loop: used for fixed number of repitition
+
+    
+
 
 
 
