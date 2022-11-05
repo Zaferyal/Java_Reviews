@@ -14,10 +14,14 @@ public class TestObjects {
         student3.setInfo("Daniel", 45, 'M', true, true, 26, "Java", "Polymorphism");
 
 
+        student1.name = "Sajjad";
+
 
         System.out.println(student1);
         System.out.println(student2);
         System.out.println(student3);
+
+        student1.study();
 
 
 

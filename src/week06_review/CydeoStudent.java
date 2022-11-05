@@ -24,7 +24,6 @@ public class CydeoStudent {
         this.groupName = groupName;
     }
 
-
     public String toString() {
         return "CydeoStudent{" +
                 "name='" + name + '\'' +
@@ -37,6 +36,11 @@ public class CydeoStudent {
                 ", groupName='" + groupName + '\'' +
                 '}';
     }
+
+    public void study(){
+        System.out.println(name +" is studying "+programmingLanguage);
+    }
+
 
 
 }
