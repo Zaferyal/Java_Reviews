@@ -4,7 +4,7 @@ public class RemoveDuplicates {
 
     public static void main(String[] args) {
         
-        String str = "XXXYYYZZ";
+        String str = "XXXYYYZZQQQQQQWWUUUUUUUOOOOOOOO";
         
         String result = ""; // "XYZ"
 
@@ -16,9 +16,12 @@ public class RemoveDuplicates {
             }
 
             result += str.charAt(i);
+
         }
 
+
         System.out.println("result = " + result);
+
         
         
     }
