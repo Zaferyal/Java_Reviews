@@ -1,6 +1,7 @@
 Java Programming Week06
 
 Review Topics: Loops
+                    For Loop
                     While Loop
                     Nested Loop
 
