@@ -51,11 +51,26 @@ Loops: Repeated Action
 
 
 
+Class: template of objects. determines how the object should be created, contains & behave
+                    indicates all the attributes & actions the objects of the class need
+
+               instance variables: belong to the object
+                                    each object has its own copy of the instance variable
+               
+               instance methods: belong to the object
+                                each object has its own copy
+
+                    instance: multiple copies
+                    static: one copy ONLY
 
 
 
-Next Week:
-    Array
+
+Object: instance of the class. has its own memory
+
+
+
+
 
 
 
