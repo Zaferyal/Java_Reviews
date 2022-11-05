@@ -25,6 +25,18 @@ public class CydeoStudent {
     }
 
 
+    public String toString() {
+        return "CydeoStudent{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                ", isMarried=" + isMarried +
+                ", isEmployed=" + isEmployed +
+                ", batchNumber=" + batchNumber +
+                ", programmingLanguage='" + programmingLanguage + '\'' +
+                ", groupName='" + groupName + '\'' +
+                '}';
+    }
 
 
 }
