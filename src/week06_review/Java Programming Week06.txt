@@ -44,12 +44,12 @@ Loops: Repeated Action
                 }while(Condition);
 
 
-    Nested:
-
-
+    Nested loop: loop inside another loop
 
 
             Frequency Task
+
+
 
 
 
