@@ -24,25 +24,22 @@ public class CydeoStudent {
         this.groupName = groupName;
     }
 
-    public String toString() {
-        return "CydeoStudent{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                ", gender=" + gender +
-                ", isMarried=" + isMarried +
-                ", isEmployed=" + isEmployed +
-                ", batchNumber=" + batchNumber +
-                ", programmingLanguage='" + programmingLanguage + '\'' +
-                ", groupName='" + groupName + '\'' +
-                '}';
-    }
 
     public void study(){
         System.out.println(name +" is studying "+programmingLanguage);
     }
 
 
-
+    public String toString() {
+        return "CydeoStudent{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                ", batchNumber=" + batchNumber +
+                ", programmingLanguage='" + programmingLanguage + '\'' +
+                ", groupName='" + groupName + '\'' +
+                '}';
+    }
 }
 
 /*

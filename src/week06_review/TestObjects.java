@@ -1,8 +1,10 @@
 package week06_review;
 
+import java.util.Scanner;
+
 public class TestObjects {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
 
         CydeoStudent student1 = new CydeoStudent();
         student1.setInfo("Josh", 25, 'M', true, false, 28, "Java", "Encapsulation");
@@ -22,6 +24,27 @@ public class TestObjects {
         System.out.println(student3);
 
         student1.study();
+
+
+        CydeoStudent student4 = new CydeoStudent();
+        System.out.println(student4);
+
+        student4.study();
+
+        System.out.println("------------------------------------");
+
+
+        CydeoStudent s1 = new CydeoStudent();
+        student1.setInfo("Josh", 25, 'M', true, false, 28, "Java", "Encapsulation");
+
+
+        CydeoStudent s2 = s1;
+
+
+        System.out.println("----------------------------------");
+
+        int num = new Scanner(System.in).nextInt();
+
 
 
 
