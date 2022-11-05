@@ -8,3 +8,56 @@ Review Topics: Loops
                Class & Object
 
 Package name: week06_review
+
+
+Loops: Repeated Action
+    
+    For loop: When the repetition is fixed
+
+                     i =0;  i < length
+                for(init; condition; i++){
+                    code
+                }
+
+                RemoveDuplicates
+
+
+
+    While loop: When the repetition is NOT fixed
+                repeated If
+                
+                while(Condition){
+                    code
+                }
+
+                if(Condition){
+                    code
+                }
+
+
+    Do-While loop: When the repetition is NOT fixed
+                    Loop MUST be executed at least once
+
+
+                do{
+                    code
+                }while(Condition);
+
+
+    Nested:
+
+
+
+
+            Frequency Task
+
+
+
+
+Next Week:
+    Array
+
+
+
+
+
