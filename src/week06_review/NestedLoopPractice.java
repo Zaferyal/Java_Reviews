@@ -1,22 +1,23 @@
 package week06_review;
 
-import java.util.Scanner;
-
 public class NestedLoopPractice {
 
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
-        System.out.println("please enter the number of minutes");
-        int minutes = scan.nextInt();
 
-        scan.close();
+        for (int m = 2; m >= 0 ; m--) {
 
-        for (int i = minutes; i > 0; i--) {
-            for (int z = 59; z >= 0; z--) {
-                System.out.println((i - 1) + " minutes and " + z + " seconds");
+            for (int s = 59; s >= 0; s--) {
+                System.out.println(m +" minutes "+ s +" seconds" );
             }
+
         }
+
+
+
+
+
+
 
     }
 
