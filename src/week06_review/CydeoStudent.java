@@ -12,6 +12,21 @@ public class CydeoStudent {
 
    // public static String schoolName = "Cydeo";
 
+
+    public void setInfo(String name, int age, char gender, boolean isMarried, boolean isEmployed, int batchNumber, String programmingLanguage, String groupName) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+        this.isMarried = isMarried;
+        this.isEmployed = isEmployed;
+        this.batchNumber = batchNumber;
+        this.programmingLanguage = programmingLanguage;
+        this.groupName = groupName;
+    }
+
+
+
+
 }
 
 /*
