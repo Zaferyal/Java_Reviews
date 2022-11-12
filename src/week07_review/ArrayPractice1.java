@@ -17,7 +17,7 @@ public class ArrayPractice1 {
 
         String[] words = {"Java", "Selenium", "API", "SQL", "Wooden Spoon", "Python"};
 
-        String[] result =new String[6]; // index: 0 ~ 5
+        String[] result =new String[words.length]; // index: 0 ~ 5
 
         /*
         result[0] = "Java";
@@ -28,13 +28,10 @@ public class ArrayPractice1 {
 
         for (int i = words.length - 1, j = 0; i >= 0; i--, j++) {
             result[j] = words[i];
+            // result += words.charAt(i);
         }
 
         System.out.println(Arrays.toString(result));
-
-
-
-
 
 
 
