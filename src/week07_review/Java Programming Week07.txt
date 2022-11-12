@@ -1,10 +1,9 @@
 Java Programming Week07
 
-Review Topics: Array
+Review Topics: Arrays
                For Each Loop
 
 Package name: week07_reviews
-
 
 
 Tasks:
@@ -15,7 +14,7 @@ Tasks:
                 String[] arr2 = {"E", "F", "G"};
 
             output:
-               arr3 = {"A", "B", "C", "D", "E", "F", "G"};
+               arr3 = {"A", "B", "C", "D", "E", "F", "G"};               
 
 
     Write a program that can display the common elements from two arrays of string
@@ -27,4 +26,11 @@ Tasks:
             Output:
                 Java
                 Wooden Spoon
+
+
+
+
+
+
+
 
