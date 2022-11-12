@@ -9,16 +9,33 @@ Data Structure: to use our data efficiently.
 
 3 Data Structures:
     1. Array:  size is fixed
-    2. Collection: size is dynamic
-    3. Map: size is dynamic
+    2. Collections: size is dynamic
+    3. Maps: size is dynamic
 
 Array: a variable that can hold multiple data. Supports any data types
 
-    int[] arr = {10, 10, 20, 30, 10, 10};
-    // index:     0  1  2    3   4   5
+        int[] arr = {10, 10, 20, 30, 10, 10};
+        // index:     0  1  2    3   4   5
 
-    int[] arr = new int[5]; //{0, 0, 0, 0, 0}
+        int[] arr = new int[5]; //{0, 0, 0, 0, 0}
 
+    single dimentional array: meant to contain elements
+
+        char[] ch = {'A', 'B', 'C'};
+
+    multi-dimensional array: meant to contain arrays
+
+    n dimensional array is a container for (n-1) dimensional arrays
+
+
+
+For Each Loop: A loop that has already been iterated. does not have access to indexes, only has access to the elements
+        
+        pre-condition: there MUST be a data structure
+
+        Iteration order is fixed (first to last)
+
+        number of execution will depend n the size of the data structure
 
 
 
@@ -44,6 +61,14 @@ Tasks:
             Output:
                 Java
                 Wooden Spoon
+
+
+
+next week: 
+    ArrayList
+
+
+
 
 
 
