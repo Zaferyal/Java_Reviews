@@ -2,6 +2,7 @@ package week08_review;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedHashSet;
 import java.util.List;
 
 public class ArrayListPractice {
@@ -65,6 +66,28 @@ public class ArrayListPractice {
         numbers.retainAll(Arrays.asList(65, 300, 400));
 
         System.out.println(numbers);
+
+        System.out.println("--------------------------------------------------");
+
+        ArrayList<String> names = new ArrayList<>();
+
+        names.addAll( Arrays.asList("Java", "SoftSkill", "Selenium", "API", "SQL", "Wooden Spoon"));
+
+        System.out.println(names);
+
+        names.get(2).charAt(2);
+
+        System.out.println("--------------------------------------------------");
+
+        ArrayList<Integer> nums = new ArrayList<>();
+        nums.addAll(Arrays.asList(10, 20, 30, 40, 50, 60, 70, 50, 10, 20, 30, 40, 50, 60 ));
+
+        nums.removeIf( p ->  p < 40 );
+
+        System.out.println(nums);
+
+      //  System.out.println( new LinkedHashSet<>(nums));
+
 
 
 
