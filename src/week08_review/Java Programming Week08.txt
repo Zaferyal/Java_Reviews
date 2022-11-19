@@ -1,0 +1,33 @@
+Java Programming Week08
+
+Review Topics:  ArrayList
+                Array vs ArrayList
+                IntelliJ Debug
+
+package name: week08_review
+
+
+Tasks:
+    1. Write a program that can return the first unique elements from an arraylist
+
+            Do not use indexOf & lastIndexOf methods
+
+
+    2. Write a program that can remove string elements from an arraylist if the firt and last characters of the string are same
+    ex:
+        list = {"Anna", "Canada", "Bob", "David", "Lan", "Abida", "Ebrahim", "Farida"}
+    output:
+        ["Lan", "Ebrahim", "Farida"]
+
+
+    3. write a program that can return the nth largest number from an arraylist
+            ex:
+                arraylist = {1,2,3,4,5,6,7,7,8,8}
+                n = 5
+            output:
+                4
+
+
+
+
+
