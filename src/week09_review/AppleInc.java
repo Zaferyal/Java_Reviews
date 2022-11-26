@@ -1,6 +1,7 @@
 package week09_review;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 public class AppleInc {
 
@@ -52,10 +53,18 @@ public class AppleInc {
             System.out.println(eachDev.name +" : "+eachDev.salary);
         }
 
-
         System.out.println("------------------------------------------");
 
 
+        ScrumTeam scrum2;
+
+        ScrumTeam scrum3;
+
+
+        System.out.println("------------------------------------------");
+
+       // ArrayList<ScrumTeam> scrums = new ArrayList<>();
+      //  ScrumTeam[] scrumTeams = {scrum1};
 
 
 
