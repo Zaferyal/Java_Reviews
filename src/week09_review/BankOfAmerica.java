@@ -8,6 +8,8 @@ public class BankOfAmerica {
 
         Tester tester1 = new Tester("Josh", 'M', LocalDate.of(1985, 4, 5) , "A01", "QA", 100000);
 
+        // tester1.setInfo()
+
         System.out.println(tester1);
 
 

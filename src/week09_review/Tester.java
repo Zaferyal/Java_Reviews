@@ -35,8 +35,17 @@ public class Tester {
     }
 */
 
-
-
+    public String toString() {
+        return "Tester{" +
+                "name='" + name + '\'' +
+                ", gender=" + gender +
+                ", DOB=" + DOB +
+                ", age=" + age +
+                ", employeeId='" + employeeId + '\'' +
+                ", jobTitle='" + jobTitle + '\'' +
+                ", salary=" + salary +
+                '}';
+    }
 }
 
 /*
