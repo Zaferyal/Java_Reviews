@@ -3,7 +3,7 @@ package week09_review;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class ScrumTeam {
+public class ScrumTeam { // ScrumTeam HAS A Developer
 
     public String PO, BA, SM;
     public ArrayList<Tester> testers; //for testers team
