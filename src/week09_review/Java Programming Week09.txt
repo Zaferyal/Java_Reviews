@@ -2,8 +2,14 @@ Java Programming Week09
 
 Review Topics: Constructors
 			   Statics (Variables & Methods)
+			   Instance vs Static
 
 Package name: week09_review
+
+
+Next week:
+	Statics, Access Modifiers
+	OOP
 
 
 
