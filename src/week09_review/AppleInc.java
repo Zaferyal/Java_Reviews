@@ -21,6 +21,41 @@ public class AppleInc {
                 new Developer("Serhan",'M',LocalDate.of(1990,11,25),"308","Developer",160000)
         };
 
+        Developer dev2 = new Developer("Halima", 'F', LocalDate.of(1997, 12, 4), "1224", "Swift Developer", 150000);
+
+        ScrumTeam scrum1 = new ScrumTeam("Nazar", "Olzhas", "Kudret", 14);
+        scrum1.addTesters(testers);
+        scrum1.addDevelopers(developers);
+        scrum1.addDeveloper(dev2);
+
+        System.out.println(scrum1);
+
+
+        scrum1.removeDeveloper("9563");
+
+        System.out.println(scrum1);
+
+        scrum1.removeTester("A02");
+
+        System.out.println(scrum1);
+
+
+        System.out.println("------------------------------------------");
+
+        for (Tester eachTester : scrum1.testers) {
+            System.out.println(eachTester.name +" : "+eachTester.salary);
+        }
+
+        System.out.println("------------------------------------------");
+
+        for (Developer eachDev : scrum1.developers) {
+            System.out.println(eachDev.name +" : "+eachDev.salary);
+        }
+
+
+        System.out.println("------------------------------------------");
+
+
 
 
 
