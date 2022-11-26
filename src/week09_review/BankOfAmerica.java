@@ -10,7 +10,18 @@ public class BankOfAmerica {
 
         // tester1.setInfo()
 
+        Tester tester2 = new Tester("Ali");
+
+        Tester tester3 = new Tester("Saja", 'F');
+
+        Tester tester4 = new Tester("Yana", 'F', LocalDate.of(1999,5, 1));
         System.out.println(tester1);
+
+        System.out.println(tester2);
+
+        System.out.println(tester3);
+
+        System.out.println(tester4);
 
 
     }
