@@ -1,6 +1,27 @@
 package week09_review;
 
+import java.util.ArrayList;
+
 public class ScrumTeam {
+
+    public String PO, BA, SM;
+    public ArrayList<Tester> testers;
+    public ArrayList<Developer> developers ;
+    public int daysOfSprint;
+
+    public ScrumTeam(String PO, String BA, String SM, int daysOfSprint) {
+        this.PO = PO;
+        this.BA = BA;
+        this.SM = SM;
+        this.daysOfSprint = daysOfSprint;
+        testers = new ArrayList<>();
+        developers = new ArrayList<>();
+    }
+
+
+
+
+
 }
 
 /*
