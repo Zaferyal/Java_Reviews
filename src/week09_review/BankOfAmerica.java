@@ -24,6 +24,24 @@ public class BankOfAmerica {
         System.out.println(tester4);
 
 
+        Developer dev1 = new Developer("Aaron", 'M', LocalDate.of(1991, 2, 15), "B35", "Java Developer", 120000);
+
+
+        System.out.println(dev1);
+
+       // dev1.smokeTesting();
+        tester1.smokeTesting();
+
+       // tester3.coding();
+        tester3.creatingTicket("smoke123");
+        //dev1.creatingTicket("smoke123");
+
+        dev1.coding();
+        dev1.fixingBugs();
+        dev1.unitTesting();
+
+
+
     }
 
 }
