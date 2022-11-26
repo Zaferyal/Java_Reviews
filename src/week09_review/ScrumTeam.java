@@ -35,9 +35,24 @@ public class ScrumTeam {
         this.developers.addAll( Arrays.asList(developers));
     }
 
+    public void removeTester(String id){ // removes the tester with the specified id from testers team
+        testers.removeIf( p -> p.employeeId.equalsIgnoreCase(id) );
+    }
 
+    public void removeDeveloper(String id){
+        developers.removeIf( p -> p.employeeId.equals(id) );
+    }
 
-
+    public String toString() {
+        return "ScrumTeam{" +
+                "PO='" + PO + '\'' +
+                ", BA='" + BA + '\'' +
+                ", SM='" + SM + '\'' +
+                ", total number of testers=" + testers.size() +
+                ", total number of developers=" + developers.size() +
+                ", daysOfSprint=" + daysOfSprint +
+                '}';
+    }
 }
 
 /*
