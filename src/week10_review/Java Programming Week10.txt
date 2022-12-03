@@ -8,7 +8,7 @@ package name: week10_review
 
 static vs instance:
     
-    Instance (multiple copies): Belong to the object. can be called through the object
+    Instance (Multiple copies): Belong to the object. can be called through the object
 
             each object has its own copy of instances
 
@@ -29,6 +29,25 @@ static vs instance:
             Static Inner Class
 
 
+OOP: 
+    
+    4 concepts:
+        1. Encapsulation
+        2. Inheritance
+        3. Abstraction
+        4. Polymophism
+
+Encapsulation: Data Hiding
+        
+        1. hide the data by giving private access modifier
+
+                private: only visible within the class
+
+        2. 
+
+using the data:
+    1. read
+    2. write
 
 Pizza Task:
     Create class named CydeoStudent:
