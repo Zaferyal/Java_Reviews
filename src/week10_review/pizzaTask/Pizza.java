@@ -125,7 +125,14 @@ public class Pizza {
     }
 
 
-
+    public String toString() {
+        return "Pizza{" +
+                "size='" + size + '\'' +
+                ", numberOfCheeseTopping=" + numberOfCheeseTopping +
+                ", numberOfPepperoniTopping=" + numberOfPepperoniTopping +
+                ", total price=" + calcCost() +
+                '}';
+    }
 }
 
 /*
