@@ -10,16 +10,23 @@ public class Pizza {
         shape = "Circle";
     }
 
+    public Pizza(String size, int numberOfCheeseTopping, int numberOfPepperoniTopping) {
+        setSize(size);
+        setNumberOfCheeseTopping(numberOfCheeseTopping);
+        setNumberOfPepperoniTopping(numberOfPepperoniTopping);
+    }
+
     public static void displayTheShapeOfPizza(){
         System.out.println("Shape of pizza is: "+shape);
     }
 
 
     public String getSize(){
+        /*
         if(size == null){
             System.err.println("size can not be null");
             System.exit(1);
-        }
+        }*/
         return size;
     }
 
@@ -75,7 +82,7 @@ public class Pizza {
     public void setNumberOfPepperoniTopping(int numberOfPepperoniTopping) {
         if(numberOfPepperoniTopping < 0){
             System.err.println("Number of pepperoni toppings can not be negative");
-            System.exit(0);
+            System.exit(1);
         }
 
 
@@ -99,6 +106,24 @@ public class Pizza {
 
         this.numberOfPepperoniTopping = numberOfPepperoniTopping;
     }
+
+
+    public double calcCost(){
+        double totalPrice = 0;
+
+        if(size.equalsIgnoreCase("small")){
+            totalPrice += 10;
+        }else if(size.equalsIgnoreCase("medium")){
+            totalPrice += 12;
+        }else{
+            totalPrice += 14;
+        }
+
+        totalPrice += (numberOfCheeseTopping * 1) + (numberOfPepperoniTopping *2);
+
+        return totalPrice;
+    }
+
 
 
 }
