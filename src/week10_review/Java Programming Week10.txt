@@ -6,6 +6,28 @@ Review Topics: Statics vs Instance
 package name: week10_review
 
 
+static vs instance:
+    
+    Instance (multiple copies): Belong to the object. can be called through the object
+
+            each object has its own copy of instances
+
+            Instance Variables
+            Instance Methods
+            Constructor
+            Inner Class
+
+    Static (One copy): Belong to the class. can be called through the class name
+
+            All objects have the same copy
+
+            Statics ONLY accetps statics (Class does not share what the object has)
+
+            Static Variables
+            Static Methods
+            Static Block
+            Static Inner Class
+
 
 
 Pizza Task:
