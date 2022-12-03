@@ -8,20 +8,21 @@ package name: week10_review
 
 
 
+
 Pizza Task:
-    Create class named Pizza:
+    Create class named CydeoStudent:
                 private variables:
                     size, numberOfCheeseTopping, numberOfPepperoniTopping
 
                 Encapsulate all the fields
                         Conditions:
-                            size of the pizza can only be small, medium, large. case insensitive
-                            Number of cheese topping can not be negative, the maximum number of cheese topping is:
+                            1. size of the pizza can only be set to small, medium, large (case insensitive)
+                            2. Number of cheese topping can not be negative, the maximum number of cheese topping is:
                                         small: 3
                                         medium: 4
                                         large: 5
 
-                            Number of pepperoni topping can not be negative, the maximum number of pepperoni topping is:
+                            3. Number of pepperoni topping can not be negative, the maximum number of pepperoni topping is:
                                         small: 4
                                         medium: 5
                                         large: 6
@@ -34,6 +35,14 @@ Pizza Task:
                     toString():returns a String containing the pizza size, quantity of each topping, and the pizza cost as calculated by calcCost()
 
         Pizza cost is determined by:
-                        S: $10 + $2 per topping
-                        M: $12 + $2 per topping
-                        L: $14 + $2 per topping
+                        S: starts at $10 
+                        M: starts at $12
+                        L: starts at $14 
+
+                        Per pepperoni topping: 2$
+                        Per cheese topping: 1$
+
+
+
+
+
