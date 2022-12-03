@@ -8,7 +8,6 @@ package name: week10_review
 
 
 
-
 Pizza Task:
     Create class named CydeoStudent:
                 private variables:
