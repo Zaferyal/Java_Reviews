@@ -5,11 +5,14 @@ Review Topics: Statics vs Instance
 
 package name: week10_review
 
+
+
+
 Pizza Task:
     Create class named Pizza:
                 private variables:
                     size, numberOfCheeseTopping, numberOfPepperoniTopping
-                    
+
                 Encapsulate all the fields
                         Conditions:
                             size of the pizza can only be small, medium, large. case insensitive
