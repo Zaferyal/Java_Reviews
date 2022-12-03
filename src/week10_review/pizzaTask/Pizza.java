@@ -4,7 +4,11 @@ public class Pizza {
 
     private String size;
     private int numberOfCheeseTopping, numberOfPepperoniTopping;
-    public static String shape = "Circle";
+    public static String shape;
+
+    static{
+        shape = "Circle";
+    }
 
     public static void displayTheShapeOfPizza(){
         System.out.println("Shape of pizza is: "+shape);
@@ -55,7 +59,7 @@ public class Pizza {
             }
         }else{
             if(numberOfCheeseTopping > 5){
-                System.err.println("Number of cheese topping can not be more than five for lerge sized pizzas");
+                System.err.println("Number of cheese topping can not be more than five for large sized pizzas");
                 System.exit(1);
             }
         }
@@ -69,6 +73,30 @@ public class Pizza {
     }
 
     public void setNumberOfPepperoniTopping(int numberOfPepperoniTopping) {
+        if(numberOfPepperoniTopping < 0){
+            System.err.println("Number of pepperoni toppings can not be negative");
+            System.exit(0);
+        }
+
+
+        if(size.equalsIgnoreCase("small")){
+            if(numberOfPepperoniTopping > 4){
+                System.err.println("Number of pepperoni topping can not be more than four for small sized pizzas");
+                System.exit(1);
+            }
+        } else if (size.equalsIgnoreCase("medium")) {
+            if(numberOfPepperoniTopping > 5){
+                System.err.println("Number of pepperoni topping can not be more than five for medium sized pizzas");
+                System.exit(1);
+            }
+        }else{
+            if(numberOfPepperoniTopping > 6){
+                System.err.println("Number of pepperoni topping can not be more than siz for large sized pizzas");
+                System.exit(1);
+            }
+        }
+
+
         this.numberOfPepperoniTopping = numberOfPepperoniTopping;
     }
 
