@@ -50,6 +50,7 @@ Encapsulation: Data Hiding
 
                 setter (Modify ONLY): public instance methods (Void Method)
                                     1 parameter
+                                    
 
 using the data:
     1. read
