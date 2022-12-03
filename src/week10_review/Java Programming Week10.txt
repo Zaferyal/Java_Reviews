@@ -43,14 +43,20 @@ Encapsulation: Data Hiding
 
                 private: only visible within the class
 
-        2. 
+        2. generate public getters/setters methods to read/modify the data outside the class
+
+                getter (Read ONLY): public instance methods (Return method)
+                                    0 parameters
+
+                setter (Modify ONLY): public instance methods (Void Method)
+                                    1 parameter
 
 using the data:
     1. read
     2. write
 
 Pizza Task:
-    Create class named CydeoStudent:
+    Create class named Pizza:
                 private variables:
                     size, numberOfCheeseTopping, numberOfPepperoniTopping
 
