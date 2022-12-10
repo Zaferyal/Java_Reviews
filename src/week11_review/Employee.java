@@ -17,6 +17,10 @@ public class Employee extends Person {
     }
 
     public void setEmployeeId(String employeeId) {
+        if(employeeId.charAt(0) == '0'){
+            System.err.println("Employee Id can not start with zero");
+            System.exit(1);
+        }
         this.employeeId = employeeId;
     }
 
@@ -67,6 +71,9 @@ public class Employee extends Person {
                 ", salary=" + salary +
                 '}';
     }
+
+
+
 }
 
 /*
