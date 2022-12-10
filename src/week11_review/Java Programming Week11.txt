@@ -7,7 +7,6 @@ package name: week11_review
 
 
 
-
 Inheritance Practice Task:
     1. Create a class named Person:
             Variables:
