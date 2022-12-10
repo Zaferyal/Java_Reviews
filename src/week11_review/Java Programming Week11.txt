@@ -6,6 +6,33 @@ Review Topics: Inheritance
 package name: week11_review
 
 
+Inheritance: building IS A relationship between classes (super & sub or parent & child)
+
+        child class (sub): inherits all the variables & methods (visible) from the parent class
+
+                    Constructor can not be inherited
+
+        parent class (super): can not inherit anything from child. contain all the common variables and methods that are meant t be inherited to ALL the child classes
+
+        Advantages:
+            less codes
+            less memory usage
+            clean codes
+            reusability
+            easy to maintain
+
+
+this: refers to the instances. current class
+    this. : calls instance variables or instance methods
+    this(): calls the constructor
+
+super: refers to the instances, parent class
+    super.  : calls instance variables or instance methods
+    super() : calls the constructor
+
+
+
+
 
 Inheritance Practice Task:
     1. Create a class named Person:
