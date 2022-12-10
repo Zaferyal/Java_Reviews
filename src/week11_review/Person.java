@@ -52,7 +52,7 @@ public class Person {
         return
                 "name='" + name + '\'' +
                 ", age=" + age +
-                ", gender=" + gender ;
+                ", gender=" + gender + '\'';
 
     }
 
