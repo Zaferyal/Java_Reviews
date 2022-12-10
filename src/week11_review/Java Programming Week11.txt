@@ -31,7 +31,13 @@ super: refers to the instances, parent class
     super() : calls the constructor
 
 
+Method Overriding: giving different implementations to the method
+                    
+                   MUST happen in child class
 
+                   return-type, parameters, method name need to be same
+
+                   Access moodifier must be same or more visible
 
 
 Inheritance Practice Task:
@@ -104,9 +110,9 @@ Inheritance Practice Task:
                     additional methods:
                         unitTesting()
 
-        4.3 Teacher
+            4.3 Teacher
 
-        4.4 Janitor
+            4.4 Janitor
 
     5. Create the following sub-classes of Student and override the study method
 
@@ -127,4 +133,5 @@ Inheritance Practice Task:
                                     {"Java", "Python", "JavaScript"}
 
                     Override the toString method to make sure that batchNum, groupName, progLanguage are included when the object of CydeoStudent is printed
-
+'java'
+ ===> Java
