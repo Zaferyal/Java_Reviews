@@ -8,8 +8,8 @@ public class Cylinder extends Shape{
 
     public Cylinder(double height, double radius) {
         super("Cylinder");
-        this.height = height;
-        this.radius = radius;
+        setHeight(height);
+        setRadius(radius);
     }
 
     public double getHeight() {
@@ -31,12 +31,12 @@ public class Cylinder extends Shape{
 
     @Override
     public double calc_area() {
-        return 0;
+        return 2*PI*radius*height + (2*PI*radius*radius) ;
     }
 
     @Override
     public double calc_perimeter() {
-        return 0;
+        return (2*radius) + (2*height);
     }
 
 

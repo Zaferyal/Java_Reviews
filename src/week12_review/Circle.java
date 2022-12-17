@@ -17,7 +17,7 @@ public class Circle extends Shape {
 
     public Circle(double radius) {
         super("Circle");
-        this.radius = radius;
+        setRadius(radius);
     }
 
     @Override
