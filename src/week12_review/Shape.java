@@ -2,7 +2,7 @@ package week12_review;
 
 import java.text.DecimalFormat;
 
-public abstract class Shape {
+public  abstract class Shape {
 
     private final String name;
 
@@ -17,6 +17,7 @@ public abstract class Shape {
     public abstract double calc_area();
 
     public abstract double calc_perimeter();
+
 
    // public abstract void eat(String food);
 

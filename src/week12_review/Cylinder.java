@@ -2,7 +2,7 @@ package week12_review;
 
 import static java.lang.Math.*;
 
-public class Cylinder extends Shape {
+public class Cylinder extends Shape  implements Volume{
 
     private double height, radius;
 
@@ -37,6 +37,10 @@ public class Cylinder extends Shape {
     @Override
     public double calc_perimeter() {
         return (2 * radius) + (2 * height);
+    }
+
+    public double calc_volume(){
+        return 0;
     }
 
 

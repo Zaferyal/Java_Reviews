@@ -2,7 +2,7 @@ package week12_review;
 
 import static java.lang.Math.*;
 
-public class Cube extends Shape {
+public class Cube extends Shape implements Volume {
 
     private double side;
 
@@ -29,5 +29,10 @@ public class Cube extends Shape {
         return 0;
     }
 
+
+    @Override
+    public double calc_volume() {
+        return 0;
+    }
 
 }
