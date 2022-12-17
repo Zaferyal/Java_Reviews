@@ -16,6 +16,8 @@ public abstract class Shape {
 
     public abstract double calc_perimeter();
 
+   // public abstract void eat(String food);
+
     @Override
     public String toString() {
         return name +"{" +
