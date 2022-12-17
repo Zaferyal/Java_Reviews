@@ -9,6 +9,68 @@ Review Topics:  Final Keyword
 Package name: week12_review
 
 
+Final keyword: unchangable
+    
+    variables: can not be reassigned
+
+    methods: can not be overriden
+
+    classes: can not be inherited
+
+
+OOP Abstraction: hiding the implementation details
+                 putting the focus on essentials without worrying about small details
+
+                 Abstract method: method without the body
+                                  meant to be overriden
+
+               2 Ways:
+                    1. Abstract class: meant to be a parent class
+                                       can not be instantiated
+                                       can not be final
+                                       Can have abstract methods
+
+                                       MUST contain common variables & methods of all sub classes
+
+
+                    2. Interface: blueprint of classes
+                                  used for providing additional methods to the classes that need
+                                  meant to be implemented
+                                  can not be instantiated
+                                  can not be final
+                                  Can have abstract methods
+
+                                  Variables: static & final
+
+                                  Methods: abstract method, static methods, default method
+
+
+                                  Multiple inheritance
+
+
+
+
+
+extends & implements:
+        
+        extends:
+            class  extends class
+            interface extends interface(s)
+
+        implements:
+
+            class implements interface(s)
+
+        extends & implements:
+            class extends class implements interface(s)
+
+
+
+
+
+
+
+
 
 Shape Task:
     1. Create a class named Shape:
@@ -18,7 +80,7 @@ Shape Task:
             Encapsulate all the fields
                 
             Methods:
-                calc_area()
+                calc_area();
                 calc_perimeter()
                 toString(): include the area & perimeter of the shape
 
@@ -38,10 +100,11 @@ Shape Task:
             3.3 Circle
             3.4 Cylinder
             3.5 Cube
+            ...
 
     4. Implement the Volume interface to Cylinder and Cube classes
 
 
 
-    
+
 
