@@ -16,7 +16,7 @@ public class TestShapeObjects {
         cube.calc_perimeter();
 
 
-
+        System.out.println(cube);
 
 
 
