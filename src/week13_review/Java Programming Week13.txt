@@ -1,0 +1,89 @@
+Java Programming Week13
+
+Review Topics: OOP Polymoprhism
+               Reference Type castings
+               OOP Principles Summary
+
+package name: week13_review
+
+
+
+
+
+
+Employee Task:
+    
+    Create the following classes:
+
+        Tester:
+            Attributes:
+                name, age, gender, id, jobTitle, salary
+
+                Restrictions:
+                    age can not be 0 or negative
+                    salary can not be zero or negative
+
+            Actions:
+                work(), toString(), workFromHome()
+
+        Developer:
+            Attributes:
+                name, age, gender, id, jobTitle, salary
+
+                Restrictions:
+                    age can not be 0 or negative
+                    salary can not be zero or negative
+
+            Actions:
+                work(), toString(), workFromHome()
+
+        Teacher:
+            Attributes:
+                name, age, gender, id, jobTitle, salary
+
+                Restrictions:
+                    age can not be 0 or negative
+                    salary can not be zero or negative
+
+            Actions:
+                work(), toString(), workFromHome()
+
+        Driver:
+            Attributes:
+                name, age, gender, id, jobTitle, salary, typeOfDL
+
+                Restrictions:
+                    age can not be 0 or negative
+                    salary can not be zero or negative
+                    typeOfDL can ONLY be 'A' or 'B' or 'C'
+            Actions:
+                work(), toString()
+
+        Janitor:
+            Attributes:
+                name, age, gender, id, jobTitle, salary
+
+                Restrictions:
+                    age can not be 0 or negative
+                    salary can not be zero or negative
+                    typeOfDL can ONLY be 'A' or 'B' or 'C'
+
+            Actions:
+                work(), toString()
+    Create a class named TestEmployeeObjects
+
+            Create a variable named employee:
+                    Assign the Tester Object
+                    Call all the methods of tester object
+
+                    Assign the Developer Object
+                    Call all the methods of developer object
+
+                    Assign the Teacher Object
+                    Call all the methods of teacher object
+
+                    Assign the Driver Object
+                    Call all the methods of driver object
+
+                    Assign the Janitor Object
+                    Call all the methods of janitor object
