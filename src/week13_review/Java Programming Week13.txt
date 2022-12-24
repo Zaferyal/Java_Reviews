@@ -75,6 +75,14 @@ Employee Task:
     
     Create the following classes:
 
+        Employee:
+
+            Common variables:  name, age, gender, id, jobTitle, salary
+            common methods: work(), toString()
+
+        RemoteJob:
+            workFromHome()
+
         Tester:
             Attributes:
                 name, age, gender, id, jobTitle, salary
@@ -126,10 +134,11 @@ Employee Task:
                 Restrictions:
                     age can not be 0 or negative
                     salary can not be zero or negative
-                    typeOfDL can ONLY be 'A' or 'B' or 'C'
 
             Actions:
                 work(), toString()
+
+
     Create a class named TestEmployeeObjects
 
             Create a variable named employee:
