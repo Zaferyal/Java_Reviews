@@ -47,6 +47,9 @@ public abstract class Employee {
     }
 
     public void setAge(int age) {
+        if(age <= 0){
+            throw new RuntimeException("Age can not be zero or negative");
+        }
         this.age = age;
     }
 
@@ -59,6 +62,9 @@ public abstract class Employee {
     }
 
     public void setSalary(double salary) {
+        if(salary <0){
+            throw new RuntimeException("Salary can not be negative");
+        }
         this.salary = salary;
     }
 
