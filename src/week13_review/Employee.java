@@ -64,6 +64,8 @@ public abstract class Employee {
     public void setSalary(double salary) {
         if(salary <0){
             throw new RuntimeException("Salary can not be negative");
+          //  System.err.println("Salary can not be negative");
+          //  System.exit(1);
         }
         this.salary = salary;
     }

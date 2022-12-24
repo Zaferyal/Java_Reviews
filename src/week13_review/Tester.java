@@ -20,5 +20,21 @@ public class Tester extends Employee implements RemoteJob {
         System.out.println(getJobTitle() +" "+getName()+" can do testing from home if needed");
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if( ! (obj instanceof Tester)){
+            throw new RuntimeException("Invalid object");
+        }
+
+        if(obj instanceof Tester){
+            if( ((Tester) obj).getSalary() == getSalary()){
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+
 
 }
