@@ -30,6 +30,12 @@ public class MapPractice {
         }
 
 
+        System.out.println(properties.get("cydeo.url"));
+
+
+
+
+
     }
 
 }
