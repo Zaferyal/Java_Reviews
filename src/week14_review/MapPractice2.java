@@ -40,6 +40,10 @@ public class MapPractice2 {
 
         System.out.println("----------------------------------------------------");
 
+        for (Map.Entry<String, Map<String, Object>> eachEntry : employees.entrySet()) {
+            System.out.println(eachEntry.getKey() + ":" + eachEntry.getValue().get("salary"));
+        }
+
 
 
 
