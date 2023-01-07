@@ -40,6 +40,23 @@ FIleNotFoundException
 
 
 
+Collection:
+    
+    List:
+        ArrayList
+
+    Set
+
+
+List<WebElements>
+
+Set<String>
+
+Set<WebELements>
+
+
+Maps:
+
 
 
 
