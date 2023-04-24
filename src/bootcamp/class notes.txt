@@ -295,6 +295,154 @@ Java Boot Camp
 
 
 19. Final keyword:
+	variable: can not re-assign
+	method: can not be overriden
+	class: can not be inherited
+
+
+		
+20. OOP Abstraction: hiding implementation
+					
+					Ignore the small details, focus on the essentials only
+				
+				2 ways:
+					abstract class: meant to be parent class. Only contaisn the commun feature of all sub classes
+
+						TestBase
+						BasePage
+
+
+					interface: for providing additional features
+
+
+					TakeScreenShot
+					WebDriver
+					JavaScriptExecuter
+					....
+					List
+					Set
+					Map
+					...
+					Connection
+					Statement
+					ResultSet
+					Response
+
+
+
+22. OOP Polymorphism: ability of object to take many forms
+
+		Driver class:
+
+			WebDriver getDriver(){
+
+			}
+
+
+
+23. Reference Type Castings: There must be inheritance
+		
+		upcasting: smaller reference type to larger reference type
+
+		downcasting: lareger reference type to smaller reference type
+
+
+
+
+
+		WebDriver driver = new FireFoxDriver();
+		( (TakeScreenShot)driver ).takeScreenShot()
+		( (JavaScriptExecuter)driver).executeScript()
+
+
+24. Exceptions: checked & unchecked
+		
+		checked: compile time
+		unchcked: runtime
+
+
+		25. Exception Handlings:
+
+				try & catch: for both checked & unchecked
+
+						try{
+							exception codes
+						}catch(){
+							printStackTrace
+						}finally{
+
+						}
+
+
+						try{
+
+						}catch(Exceptions){
+
+						}
+
+
+				throws: for checked exceptions, fastest solution
+
+						caller of the method will have the same exception
+
+
+		throw: raises an exception
+
+		NullPointer
+		NoSuchElement
+		ClassCast
+		TimeOutException
+		WebDriverException
+		StaleElement
+
+
+26. final vs finally vs finalize:
+		
+
+
+27. Garbage Collection & Garbage Collector:
+		
+		garbage collection: collection of unrefrenced object
+
+					driver =null
+
+		garbage collector: a processes which is done in JVM
+							finalize()
+
+		
+28. Collections: size is dynamic
+				does not support primitive
+
+		List: has indexes, duplicates are accepted
+
+			ArrayList: faster in retriving the element
+
+			List<Map<String, Object>>
+
+			List<WebElements> list = driver.findElements
+
+
+		Set: Does not have indexes, duplicates are NOT accepted
+
+			HashSet: faster, random
+
+			Set<String> = getWindowHandles()
+
+			ResultSet
+
+
+29. Iterable & Iterator:
+		
+		removeIf()
+
+
+30. Maps: for Pairs (Key and Value). key must be unique. 
+			does not support primitive
+
+		HashMap: Fastest, accepts null key & value. random order
+		LinkedHashMap: maintains the insertion order, accepts null key & value
+
+		xml
 
 
 
