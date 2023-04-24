@@ -174,13 +174,44 @@ Java Boot Camp
 	
 		
 
+14. import statements:
+		
+		regular import:
+			import package.class
+
+
+		static import:
+			import static package.class.member
+
+
+15. Access Modifiers:
+		
+		private < default < protected < public
+
+		private: visible within the class ONLY
+
+		default: visible within the same package
+
+		protected: always visible within the same package. also visible outside the packages to subclasses
+
+		public: always visible
 
 
 
+16. OOP Encapsulations: hiding the data by declaring them private.
+						
+						use the public getter/setter to read/write the data
+
+						Getter: Read ONLY
+								returns the value of the private instance variable
+								0 parameters
+
+						Setter: Write ONLY
+								does not return any value
+								1 qparameter
 
 
-
-
+				In my framework i used it in POJO classes
 
 
 
