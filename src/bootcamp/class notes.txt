@@ -70,11 +70,121 @@ Java Boot Camp
 
 
 
-5. 
+6. Loops:  for & while
+
+	for loop: iteration number is fixed/known
+
+					i=0;           i < 10      i++
+			for(initialization; conidtion;  Iterator){
+				statements that needs to be repeated
+			}
+
+
+	While loop: number of iteration is unknown
+
+			while(condition){
+				statements that needs to be repeated
+			}
+
+
+			while(resultSet.hasNext()){
+
+			}
+
+	do-while loop: at least gets executed once
 
 
 
 
-come back at 11:08 am
+7. Array: Data Structures
+		 size is fixed. faster
+		 supports both primitives and non primitives
+		 can be multidimensional
+
+
+8. for each loop: there must be a data structure
+				  number of iterations and order of the iteratiosn are fixed
+
+
+9. Custom Methods: Set of instruction that can perform a task
+	
+		AM ReturnType MethodName(Parameter){
+				Codes fragments that are needed to perform the desired task
+		}
+
+		improves the reusability of our codes
+
+
+
+10. Method Overloading: multiple methods having the same method name
+						Parameters MUST be different
+						Happens in same class
+
+
+11. Constructor:  used when we create objects from the class.
+				execution depends on the object
+		
+		AM className(parameters){
+			codes
+		}
+
+
+		BasePage:
+
+			public BasePage(){
+				PageFactory.initElement(driver, this)
+			}
+
+
+			@FindBy
+
+
+			HomePage extends BasePage
+
+			SecondPage extends BasePage
+
+
+		Driver:
+
+
+			private Driver(){
+
+			}
+
+			static WebDriver;
+
+			getDriver(){
+
+			}
+
+
+
+12. Class & Objects:  
+		class is a template/blueprint of object, where the object came from. determines how the object should be created and how the object should behave
+
+		Object is result of the class. one instance of a class, each object will have its own memory
+
+
+
+13. Static vs Instance:
+
+		instance: belongs to object. Multiple copies, each object has its own copy
+
+		static: belong to class. one copy, all objects will share same copy
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
