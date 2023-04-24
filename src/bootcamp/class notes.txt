@@ -215,6 +215,90 @@ Java Boot Camp
 
 
 
+17. OOP Inheritance: building parent & child relations between classes
+
+					extends
+					implements
+
+					classA extends classB
+					interfaceA extends interfaceB, interfaceC..
+
+					classA implements interfaceB
+
+					classA extends classB implement interfaceC
+
+
+					subclass (child): can inherit all the visible variable & methods ONLY
+
+					superclass (parent): does not inherit anything
+
+
+					BasePage:
+						public BasePage(){
+							PageFactory.initElement(driver, this)
+						}
+
+
+						@FindBy
+
+
+						HomePage extends BasePage
+
+						SecondPage extends BasePage
+
+
+
+
+
+					TestBase:
+						@BeforeMethod{
+							Open Browser
+							implicitwait
+							Maximize
+							navigate
+						}
+
+						@AfterMethod{
+							close the browser
+
+							takescreenshot and addit to the report if failed
+						}
+
+
+
+					TestCases1 extends TestBase:
+
+						@Test{
+							
+						}
+
+						@Test{
+							
+						
+						}
+
+						@Test{
+							
+						
+						}
+
+
+
+18. Method Overriding: giving different implementatiosn to a method
+						must happen in subclass
+
+						method name, parameters, retyrn types are same
+						AM same or more visible
+
+						can not override: static, final, private methods
+
+
+
+19. Final keyword:
+
+
+
+
 
 
 
