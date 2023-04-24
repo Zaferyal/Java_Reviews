@@ -1,6 +1,6 @@
 Java Boot Camp
 
-	Topics:
+	Review Topics:
 		1. Primitives: int, double, char, boolean
 		2. Primitive Type Castings: Implicit vs Explicit
 		3. Wrapper class
@@ -33,15 +33,48 @@ Java Boot Camp
 		30. Maps
 
 
+1. Primitives: byte < short < int < long < float < double
+			char, boolean
+
+			DataType  Var  = Data
+
+2. Primitive Type castings:
+			
+			implicit casting: smaller primitive type to larger primitive type
+
+			explicit casting: larger primitive type to smaller primitive type
 
 
 
-
-
-
-
-
-
-
-
+3. Wrapper class: the object type of the primitives
 		
+		Byte, Short, Integer ....
+
+		parse methods
+		valueOf methods
+
+		autoboxing
+		unboxing
+
+
+
+4. Sequence of characters:
+			
+			String: immutable
+
+				substring(), length(), charAt(), lower/case, replace, trim, equals/ignorecase
+
+			StringBuilder: mutable. 
+
+			StringBuffer: mutable. synchronized
+
+
+
+5. 
+
+
+
+
+come back at 11:08 am
+
+
